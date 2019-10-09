@@ -1,5 +1,10 @@
 ##js cdn 文件地址
-https://dwz.cn/4WWzJZ01
+-swiper.min.js
+http://1t.click/a6Xy
+
+-flexible.js
+http://1t.click/a6Xz
+
 
 ##css cdn 文件地址
 https://dwz.cn/znk5tnbO

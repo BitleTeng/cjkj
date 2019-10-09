@@ -11,6 +11,7 @@ body {
     color: #000;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .swiper-container {
@@ -19,6 +20,7 @@ body {
 }
 
 .swiper-slide {
+    width: 100%;
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -80,7 +82,39 @@ body {
 
 .swiper-slide:nth-of-type(2) {
     position: relative;
-    background-image: url('../images/index.jpeg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid red;
+    padding: 0;
+}
+
+.swiper-slide:nth-of-type(2)>div {
+    width: 100%;
+}
+
+.swiper-slide:nth-of-type(2)>div:nth-of-type(1)>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+}
+
+.swiper-slide:nth-of-type(2)>div:nth-of-type(2) {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    border: 1px solid red;
+}
+
+.swiper-slide:nth-of-type(2)>div:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 8rem;
+}
+
+.swiper-slide:nth-of-type(2)>div:nth-of-type(3)>img {
+    height: 100%;
+    width: 100%;
 }

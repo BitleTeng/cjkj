@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Swiper demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>公众号-纯净科技</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0;">
     <link rel="stylesheet" href="https://dwz.cn/znk5tnbO">
     <style>
         html,
@@ -55,28 +55,57 @@
             <div class="swiper-slide">
                 <img style="width: 100%;height:100%;" src="./images/index.png" alt="">
             </div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
-            <div class="swiper-slide">Slide 6</div>
-            <div class="swiper-slide">Slide 7</div>
-            <div class="swiper-slide">Slide 8</div>
-            <div class="swiper-slide">Slide 9</div>
-            <div class="swiper-slide">Slide 10</div>
+            <div class="swiper-slide" data-swiper-autoplay="5000">
+                <audio controls loop autoplay src="http://audio02.dmhmusic.com/71_53_T10021737786_128_4_1_0_sdk-cpm/cn/0103/M00/63/44/ChR45VmMwluAF_j1ACjeYdHgT8I974.mp3?xcode=0a9ffbe4fd3696485355964b2666cd7f69afe79">
+                  您的浏览器不支持 audio 标签。
+                </audio>
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="5000">
+                <img style="width: 100%;height:100%;" src="./images/index.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img style="width: 100%;height:100%;" src="./images/index.png" alt="">
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="5000">
+                <img style="width: 100%;height:100%;" src="./images/index.png" alt="">
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="5000">
+                <img style="width: 100%;height:100%;" src="./images/index.png" alt="">
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="5000">
+                <img style="width: 100%;height:100%;" src="./images/index.png" alt="">
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="5000">
+                <img style="width: 100%;height:100%;" src="./images/index.png" alt="">
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="5000">
+                <img style="width: 100%;height:100%;" src="./images/index.png" alt="">
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="5000">
+                <img style="width: 100%;height:100%;" src="./images/index.png" alt="">
+            </div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
     </div>
     <script src="https://dwz.cn/4WWzJZ01"></script>
-
-    <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper('.swiper-container', {
             spaceBetween: 30,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
+            effect: 'coverflow',
+            autoplay: true,
+            speed: 800,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+                waitForTransition: true,
+            },
+            coverflowEffect: {
+                rotate: 60,
+                stretch: 0,
+                depth: 1000,
+                modifier: 2,
+                slideShadows: false
             },
         });
     </script>

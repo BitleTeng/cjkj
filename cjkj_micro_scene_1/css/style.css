@@ -38,7 +38,7 @@ body {
 
 .swiper-slide:nth-of-type(1) {
     position: relative;
-    background-image: url('../images/page_1/index.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.3/cjkj_micro_scene_1/images/page_1/index.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }

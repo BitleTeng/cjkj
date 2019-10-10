@@ -79,6 +79,7 @@
 <script src="https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.3/common_js/swiper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.3/common_js/flexible.js"></script>
 <script src="./js/index.js"></script>
+<script src="../common_js/swiper.animate1.0.3.min.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
         spaceBetween: 30,
@@ -97,6 +98,10 @@
         on: {
             transitionEnd: function() {
                 console.log(this.activeIndex); //切换结束时，告诉我现在是第几个slide
+            },
+            init: function() {
+                swiperAnimateCache(this); //隐藏动画元素 
+                swiperAnimate(this); //初始化完成开始动画
             },
         },
     });

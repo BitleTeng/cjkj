@@ -134,8 +134,8 @@ body {
     background-color: #FFA500;
     opacity: 0.2;
     filter: opacity(20);
-    -webkit-box-shadow: 0 0 1.2rem 1.5rem #FFA500;
-    box-shadow: 0 0 1.2rem 1.5rem #FFA500;
+    -webkit-box-shadow: 0 0 2rem 1.5rem #FFA500;
+    box-shadow: 0 0 2rem 1.5rem #FFA500;
     width: 4rem;
     height: 4rem;
     display: block;

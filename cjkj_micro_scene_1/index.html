@@ -25,13 +25,17 @@
             </div>
             <!-- 2 -->
             <div class="swiper-slide" data-swiper-autoplay="5000">
-                <div>
+                <div class="animated slow infinite heartBeat delay-1s">
                     <img src="./images/page_2/page_two_2.png">
                 </div>
                 <div>
                     <p>一条名言名句</p>
+                    <p>一条名言名句</p>
+                    <p>一条名言名句</p>
+                    <p>一条名言名句</p>
+                    <p>一条名言名句</p>
                 </div>
-                <div class="animated infinite lightSpeedIn">
+                <div class="animated infinite slideInRight">
                     <img src="./images/page_2/page_two_1.png">
                 </div>
             </div>
@@ -91,7 +95,7 @@
             slideShadows: false
         },
         on: {
-            slideChange: function() {
+            slideChangeTransitionEnd: function() {
                 console.log(this.activeIndex); //切换结束时，告诉我现在是第几个slide
             },
         },

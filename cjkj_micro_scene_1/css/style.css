@@ -188,6 +188,11 @@ body {
     box-sizing: border-box;
 }
 
+.swiper-slide:nth-of-type(3)>.showImg>div>img {
+    width: 100%;
+    height: 100%;
+}
+
 .swiper-slide:nth-of-type(3)>.showImg>div:nth-of-type(1) {
     left: 5%;
     top: 5%;

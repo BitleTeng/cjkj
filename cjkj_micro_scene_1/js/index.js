@@ -1,4 +1,4 @@
-window.onload = function() {
+$(window).load(function() {
     let paused = document.querySelector("#play");
     let music_on = document.querySelector(".music-on");
     if (document.addEventListener) {
@@ -14,5 +14,31 @@ window.onload = function() {
             }
         }, false);
     }
-
-}
+})
+$(document).ready(function() {
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        effect: 'coverflow',
+        // autoplay: {
+        //     disableOnInteraction: false,
+        //     waitForTransition: true,
+        // },
+        coverflowEffect: {
+            rotate: 60,
+            stretch: 0,
+            depth: 1000,
+            modifier: 2,
+            slideShadows: false
+        },
+        on: {
+            init: function() {
+                swiperAnimateCache(this);
+                swiperAnimate(this);
+            },
+            slideChangeTransitionEnd: function() {
+                swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+                //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+            }
+        },
+    });
+});

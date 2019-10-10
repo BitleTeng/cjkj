@@ -207,3 +207,200 @@ body {
     left: 15%;
     top: 15%;
 }
+
+.swiper-slide:nth-of-type(3)>.showImg>div:nth-of-type(4) {
+    width: 3rem;
+    height: 4rem;
+    left: 0;
+    bottom: 0;
+    border: none;
+}
+
+
+/* 4 */
+
+.swiper-slide:nth-of-type(4) {
+    background-image: url('https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.6/cjkj_micro_scene_1/images/page_2/page_two_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-of-type(4)>.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide:nth-of-type(4)>.container>div:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6rem;
+    height: 5rem;
+}
+
+
+/* 5 */
+
+.swiper-slide:nth-of-type(5) {
+    background-image: url('https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.6/cjkj_micro_scene_1/images/page_2/page_two_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-of-type(5)>.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide:nth-of-type(5)>.container>div:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6rem;
+    height: 5rem;
+}
+
+
+/* 6 */
+
+.swiper-slide:nth-of-type(6) {
+    background-image: url('https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.6/cjkj_micro_scene_1/images/page_2/page_two_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-of-type(6)>.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide:nth-of-type(6)>.container>div:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6rem;
+    height: 5rem;
+}
+
+
+/* 7 */
+
+.swiper-slide:nth-of-type(7) {
+    background-image: url('https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.6/cjkj_micro_scene_1/images/page_2/page_two_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-of-type(7)>.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide:nth-of-type(7)>.container>div:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6rem;
+    height: 5rem;
+}
+
+
+/* 8 */
+
+.swiper-slide:nth-of-type(8) {
+    background-image: url('https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.6/cjkj_micro_scene_1/images/page_2/page_two_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-of-type(8)>.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide:nth-of-type(8)>.container>div:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6rem;
+    height: 5rem;
+}
+
+
+/* 9 */
+
+.swiper-slide:nth-of-type(9) {
+    background-image: url('https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.6/cjkj_micro_scene_1/images/page_2/page_two_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-of-type(9)>.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide:nth-of-type(9)>.container>div:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6rem;
+    height: 5rem;
+}
+
+
+/* 10 */
+
+.swiper-slide:nth-of-type(10) {
+    background-image: url('https://cdn.jsdelivr.net/gh/puritySupremacy/cjkj@2.2.6/cjkj_micro_scene_1/images/page_2/page_two_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-of-type(10)>.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide:nth-of-type(10)>.container>div:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6rem;
+    height: 5rem;
+}
